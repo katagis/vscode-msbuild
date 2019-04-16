@@ -20,8 +20,8 @@
                 "/Fobuild/",
                 "/Fdbuild/",
                 "/Fe:",
-                "build/main.exe",
-                "main.cpp"
+                "build/${fileBasenameNoExtension}.exe",
+                "${fileBasenameNoExtension}.cpp"
             ],
             "group":  {
                 "kind": "build",
